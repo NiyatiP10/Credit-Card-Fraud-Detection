@@ -7,7 +7,7 @@ This project aims to detect fraudulent transactions in a **highly imbalanced cre
 ### **1. Data Loading and Exploration**
 The project starts by loading the dataset and performing exploratory data analysis to understand its structure and key characteristics:
 - **Loading Data**:
-  The dataset (`credit.csv`) is loaded using **Pandas**, enabling quick manipulation and exploration.
+  The dataset (`creditcard.csv`) is loaded using **Pandas**, enabling quick manipulation and exploration.
 - **Peeking at the Data**:
   - `.head()`: Displays the first few rows of the dataset.
   - `.describe()`: Provides summary statistics like mean, standard deviation, and feature ranges.
@@ -112,7 +112,7 @@ The model is evaluated using the following metrics:
 ---
 
 ### **How to Run the Code**
-1. Clone the repository and load the dataset (`credit.csv`).
+1. Clone the repository and load the dataset (`creditcard.csv`).
 2. Install the required libraries:  
    ```bash
    pip install numpy pandas matplotlib seaborn scikit-learn
